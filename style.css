@@ -4,6 +4,7 @@
       height: 122px;
       background-color: #6852A4;
       position: fixed;
+      z-index: 10;
   }
 
   footer{
@@ -13,17 +14,17 @@
       background-color: #0D9D1C;
       position: absolute;
   }
-  main{
+  .main{
       width: 1032px;
       height: 768px;
       margin-left: 372px; 
       margin-top: 142px; 
       background-color: #F84CD2;
-      position: absolute;
+      position: relative;
       float: right;
       /* margin: 0 auto; */
   }
-  section{
+  .aside{
       width: 340px;
       height: 700px;
       margin-left: 0px;
